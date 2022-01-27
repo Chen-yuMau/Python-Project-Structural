@@ -40,11 +40,24 @@ class StructuraL():
 	# Logical Functions:
 	# The modules required to carry out game logic
 	# ------------------------------------------------------------------
+	def convert_grid_to_logical_position(self, grid_position):
+		return logical_position, type
 
 	def click(self, event):
 		if not self.reset_board:
 			grid_position = [event.x, event.y]
 			logical_positon, valid_input = self.convert_grid_to_logical_position(grid_position)
+			if valid_input and not self.is_edge_occupied(logical_positon, valid_input):
+				self.update_board(valid_input, logical_positon)#calculations and savings
+				self.canvas.delete("all")
+				self.make_edges(valid_input, logical_positon)#draw newline
+				self.refresh_board()#draw choices
+				self.player1_turn = not self.player1_turn
+				if self.is_gameover():
+					# self.canvas.delete("all")
+					self.display_gameover()
+				else:
+					self.display_turn_text()
 		else:
 			self.canvas.delete("all")
 			self.play_again()
