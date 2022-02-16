@@ -30,4 +30,4 @@ If the player successfully seals all 5 directions into his own base, the player 
 ![Win way 2](https://github.com/curlhairedude/Python-Project-Structural/blob/main/Pics/Win3.JPG?raw=true)
 
 The game is more complex than it initially appears, there are certain tactics that resembles "structures"
-that will force the opponent into drawing a direction the player wants, henc the name "structural".
+that will force the opponent into drawing a direction the player wants, hence the name "structural".
