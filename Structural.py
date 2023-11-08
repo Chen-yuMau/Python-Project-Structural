@@ -374,6 +374,5 @@ class StructuraL():
 			self.play_again()
 			self.reset_board = False
 
-
 game_instance = StructuraL()
 game_instance.mainloop()

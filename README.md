@@ -1,4 +1,35 @@
 # Structural
+
+## Overview:
+
+Structural is a pencil-and-paper game for two players 
+
+## Requirements:
+
+* Python 3.5 or up.
+
+## Running the game:
+
+For the first time only, clone the git repository.
+```
+$ git clone https://github.com/Chen-yuMau/Python-Project-Structural
+```
+
+Execute the following command.
+```
+$ cd Python-Project-Structural
+$ python Structural.py
+```
+
+> For Linux, use the `python3` command instead of the `python` command,  
+> or install the `python-is-python3` package.  
+> ```
+> $ sudo apt install python-is-python3
+> ```
+## Development:
+The current version of the game is meant for offline play. The file "Structural.py" is sufficient for online play. 
+An online connection version is currently in development. 
+## Rules of the game:
 I designed a strategy board game for two players adn implemented it using tkinter.
 
 The game is played starting with a rectangular grid made of dots, with a red dot and a blue dot at the ends of the grid called "bases".
