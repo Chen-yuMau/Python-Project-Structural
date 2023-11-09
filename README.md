@@ -30,14 +30,14 @@ $ python Structural.py
 The current version of the game is meant for offline play. The file "Structural.py" is sufficient for online play. 
 An online connection version is currently in development. 
 ## Rules of the game:
-I designed a strategy board game for two players adn implemented it using tkinter.
+I designed a strategy board game for two players and implemented it using tkinter.
 
 The game is played starting with a rectangular grid made of dots, with a red dot and a blue dot at the ends of the grid called "bases".
 
 ![new board](https://github.com/curlhairedude/Python-Project-Structural/blob/main/Pics/New%20board.JPG?raw=true)
 
 In the middle of the grid is a yellow colored dot called the "game dot".
-The starting player can choose 1 out of eight directions to join the join the starting yellow dot with an adjacent dot with a horizontal,vertical or diagonal line.
+The starting player can choose 1 out of eight directions to join the starting yellow dot with an adjacent dot with a horizontal,vertical or diagonal line.
 The newly connected dot then turns into the game dot.
 
 ![Turn1](https://github.com/curlhairedude/Python-Project-Structural/blob/main/Pics/Turn%201.JPG?raw=true)
@@ -48,11 +48,11 @@ The players take turns choosing directions and try to direct the gamedot to the 
 
 There are two ways of winning.
 
-If a player connects into the opponent's base, the player wins.
+If a player connects to the opponent's base, the player wins.
 
 ![Win way 1](https://github.com/curlhairedude/Python-Project-Structural/blob/main/Pics/Win1.JPG?raw=true)
 
-However, if the player connects into the player's own base, the game goes on. In doing this, the player seals an entrance to his own base.
+However, if the player connects to the player's own base, the game goes on. In doing this, the player seals an entrance to his own base.
 
 ![Seal](https://github.com/curlhairedude/Python-Project-Structural/blob/main/Pics/Win2.JPG?raw=true)
 
